@@ -1,0 +1,19 @@
+{
+  "name": "typescript-step-by-step",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tsc ",
+    "jsdoc": "jsdoc ./output/**/*.js -d doc"
+  },
+  "main": "index.js",
+  "author": "Xuer",
+  "license": "MIT",
+  "devDependencies": {
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "jsdoc": "^3.6.3",
+    "typescript": "^3.8.2"
+  }
+}
