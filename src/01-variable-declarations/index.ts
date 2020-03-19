@@ -43,7 +43,7 @@ var a = 456; // -> 可重复申明
  */
 // console.log(b) // -> 报错 `声明之前已使用的块范围变量“b”, `
 let b = 123;
-  // let b = 456 // -> 报错 `无法重新声明块范围变量“b”`
+// let b = 456 // -> 报错 `无法重新声明块范围变量“b”`
 (function func() {
   if (true) {
     let c = 1;
@@ -61,11 +61,28 @@ const d = 123;
 // d = 456 // -> 报错 `Cannot assign to 'd' because it is a constant`
 const o: any = { a: 1 };
 // o = 1 // -> 报错 `Cannot assign to 'o' because it is a constant`
-o.c = 123 // 正确，可以修改内部数据
+o.c = 123; // 正确，可以修改内部数据
 
 /**
  * 4. Destructuring
  * @description 解构
+ *  - 数组解构
+ *  - 对象解构
+ *  - 解构运算符 `...`
+ *  - 函数参数解构
  */
+let arr: number[] = [1, 2, 3, 4];
+let [firstNum, secondNum] = arr; // firstNum = 1, secondNum = 2
+let arrCopy = [...arr]; // arrCopy = [1, 2, 3, 4]
 
+let obj = { aa: 1, bb: 2, cc: 3 };
+let { aa, bb } = obj; // aa = 1, bb = 2
+let objCopy = { ...obj }; // objCopy = { aa: 1, bb: 2, cc: 3 }
 
+let [first, ...restNum] = arr; // first = 1, restNum = [2, 3, 4]
+let { aa: aaa, ...restObj } = { ...obj }; // aaa = 1, restObj = { bb: 2, cc: 3 }
+
+function add(...arr) {
+  return arr.reduce((total, i) => total + i, 0);
+}
+add(1, 2, 3, 4);
