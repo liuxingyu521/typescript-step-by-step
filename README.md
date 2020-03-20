@@ -1,7 +1,7 @@
 <h1 align="center">typescript-step-by-step</h1>
 
-> 好记性不如烂笔头。
-> 一步步跟着 [官方文档](https://www.typescriptlang.org/docs/home.html) 深入 Ts. 
+> 好记性不如烂笔头。<br />
+> 一步步跟着 [官方文档](https://www.typescriptlang.org/docs/home.html) 深入 Ts. <br />
 > Let's begin !
 
 ## 知识点总结
@@ -15,5 +15,6 @@
 
 1. 在根目录执行 `yarn` 安装依赖
 2. 查看每章内容
-  - 在 `src` 目录下查看每一章的内容，总结都在开头的注释
-  - 在每一章下面执行 `npx tsc -t ES5` 后生成 `index.js` 文件，然后 `node index.js` 查看输出
+
+    - 在 `src` 目录下查看每一章的内容，总结都在开头的注释
+    - 在每一章下面执行 `npx tsc -t ES5` 后生成 `index.js` 文件，然后 `node index.js` 查看输出
