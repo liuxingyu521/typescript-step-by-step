@@ -1,6 +1,6 @@
 /**
  * class
- * - 面向对象类型
+ * - 面向对象的类
  * - 继承 extends 关键字
  * - super 调用父类，在子类中想要用 this 对象，必须调用 super() 方法
  * - public、private、protected 修饰符
