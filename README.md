@@ -10,6 +10,7 @@
 1. [变量申明](https://github.com/liuxingyu521/typescript-step-by-step/blob/master/src/01-variable-declarations/index.ts)
 2. [接口](https://github.com/liuxingyu521/typescript-step-by-step/blob/master/src/02-interfaces/index.ts)
 3. [类](https://github.com/liuxingyu521/typescript-step-by-step/blob/master/src/03-classes/index.ts)
+3. [函数](https://github.com/liuxingyu521/typescript-step-by-step/blob/master/src/04-functions/index.ts)
 
 ## How to use
 
