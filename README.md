@@ -13,6 +13,7 @@
 4. [函数](https://github.com/liuxingyu521/typescript-step-by-step/blob/master/src/04-functions/index.ts)
 5. [枚举](https://github.com/liuxingyu521/typescript-step-by-step/blob/master/src/05-enums/index.ts)
 6. [联合类型和交叉类型](https://github.com/liuxingyu521/typescript-step-by-step/blob/master/src/06-union-intersection-types/index.ts)
+7. [泛型](https://github.com/liuxingyu521/typescript-step-by-step/blob/master/src/07-generics/index.ts)
 
 ## How to use
 
